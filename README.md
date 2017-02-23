@@ -1,5 +1,5 @@
 # awsStructuredQueryBuilder
-Aws Structured Query Builder for Go
+Aws Structured Query Builder for Go baesd on http://docs.aws.amazon.com/cloudsearch/latest/developerguide/searching-compound-queries.html
 
 ```go
 package main
@@ -18,3 +18,9 @@ func main() {
 	fmt.Print(q)
 }
 ```
+
+
+## What is missing (TODO)
+- Range [2013,}
+- Range {,2000} //less than 2000
+- MatchAll
